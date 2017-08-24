@@ -1,5 +1,5 @@
 # egg-info stuff
-oglhslack.egg-info/*
+oglhclient.egg-info/*
 
 # log stuff
 *.log
