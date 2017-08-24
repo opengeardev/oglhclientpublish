@@ -1,0 +1,3 @@
+[submodule "oglhclient"]
+	path = oglhclient
+	url = https://github.com/opengeardev/oglhclient
