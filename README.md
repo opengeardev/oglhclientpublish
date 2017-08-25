@@ -1,6 +1,6 @@
 # Pypi package builder for Lighthouse API Client
 
-It is a package builder for distributing [oglhslack](https://github.com/opengeardev/oglhclient) throught Pypi.
+It is a package builder for distributing [oglhclient](https://github.com/opengeardev/oglhclient) throught Pypi.
 
 For uploading a new version it is necessary to update the versions inside `setup.py`, something like:
 
