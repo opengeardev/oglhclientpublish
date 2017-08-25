@@ -15,7 +15,7 @@ In case of a change in the [oglhclient](https://github.com/opengeardev/oglhclien
 For uploading a new version:
 
 ```bash
-$ pandoc --from=markdown --to=rst --output=README.rst oglhclient/README.md
 $ git submodule update --remote
+$ pandoc --from=markdown --to=rst --output=README.rst oglhclient/README.md
 $ python setup.py sdist upload
 ```
