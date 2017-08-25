@@ -1,16 +1,16 @@
 import io
-import pypandoc
 from setuptools import setup, find_packages
 from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-# Translate oglhclient README.md to .rst
-long_description = pypandoc.convert_file(path.join(here, 'oglhclient/README.md'), 'rst')
+# Get the long description from the relevant file
+with io.open(path.join(here, 'README.rst'), encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(
   name = 'oglhclient',
-  version = '0.9',
+  version = '0.9.2',
   description = 'A client for Lighthouse API',
   long_description=long_description,
   author = 'Lighthouse Team',
