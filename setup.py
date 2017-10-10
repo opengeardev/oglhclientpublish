@@ -11,7 +11,7 @@ with io.open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
   name = 'oglhclient',
   version = '1.0',
-  description = 'A client for Lighthouse API',
+  description = 'An API client library for Opengear Lighthouse',
   long_description=long_description,
   author = 'Lighthouse Team',
   author_email = 'engineering@opengear.com',
