@@ -10,16 +10,16 @@ with io.open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
   name = 'oglhclient',
-  version = '1.0',
+  version = '1.0.0',
   description = 'An API client library for Opengear Lighthouse',
   long_description=long_description,
   author = 'Lighthouse Team',
   author_email = 'engineering@opengear.com',
   url = 'https://github.com/opengear/oglhclient',
-  download_url = 'https://github.com/opengear/oglhclient/archive/v1.0.tar.gz',
+  download_url = 'https://github.com/opengear/oglhclient/archive/v1.0.0.tar.gz',
   keywords = ['api', 'opengear', 'lighthouse'],
   classifiers = ['Programming Language :: Python :: 3', 'Programming Language :: Python :: 2'],
-  install_requires = ['requests','urllib','pyyaml','future'],
+  install_requires = ['requests','pyyaml','future'],
   packages=find_packages(),
   package_data={'': ['*.raml', '*.html']},
 )

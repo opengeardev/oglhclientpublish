@@ -184,4 +184,3 @@ could be performed as:
 .. code:: python
 
     result = client.tags.node_tags.delete(tag_value_id='nodes_tags-1')
-
