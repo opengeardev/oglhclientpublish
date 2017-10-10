@@ -10,13 +10,13 @@ with io.open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
   name = 'oglhclient',
-  version = '0.9.2',
+  version = '1.0',
   description = 'A client for Lighthouse API',
   long_description=long_description,
   author = 'Lighthouse Team',
   author_email = 'engineering@opengear.com',
-  url = 'https://github.com/opengeardev/oglhclient',
-  download_url = 'https://github.com/opengeardev/oglhclient/archive/0.9.tar.gz',
+  url = 'https://github.com/opengear/oglhclient',
+  download_url = 'https://github.com/opengear/oglhclient/archive/v1.0.tar.gz',
   keywords = ['api', 'opengear', 'lighthouse'],
   classifiers = ['Programming Language :: Python :: 3', 'Programming Language :: Python :: 2'],
   install_requires = ['requests','urllib','pyyaml','future'],
